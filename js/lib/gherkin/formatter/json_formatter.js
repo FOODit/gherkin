@@ -85,7 +85,7 @@ var JSONFormatter = function(io) {
 
     function feature_elements() {
         if(!feature_hash['elements']) {
-            feature_hash['elements'] = [];
+            feature_hash['elements'] = [[]];
         }
         return feature_hash['elements'];
     }
